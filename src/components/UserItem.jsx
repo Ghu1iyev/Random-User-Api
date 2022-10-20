@@ -5,7 +5,7 @@ const UserItem = ({user}) => {
     <div className='card-item'>
             <img src={user.picture.large} alt="" />
             <div className="info">
-                <p>{user.name.first} {user.name.last}</p>
+                <h2>{user.name.first} {user.name.last}</h2>
                 <p>{user.location.country} | {user.location.city}</p>
                 <p>{user.email}</p>
             </div>

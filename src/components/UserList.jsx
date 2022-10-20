@@ -15,6 +15,7 @@ const UserList = () => {
     setUsers(res.data.results)
 };
 
+
 useEffect(() => {
     fetchUser();
 }, []);
